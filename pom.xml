@@ -4,7 +4,7 @@
 
     <groupId>org.qaddict</groupId>
     <artifactId>maven-runner-project</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Maven jar runner</name>
     <description>Plugin for running jars directly from maven repository without any local maven project.</description>
@@ -42,7 +42,7 @@
         <connection>scm:git:git://github.com/QAddict/${project.artifactId}.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/QAddict/${project.artifactId}.git</developerConnection>
         <url>https://github.com/QAddict/${project.artifactId}</url>
-        <tag>maven-runner-project-1.0</tag>
+        <tag>qaddict-foundation-java-0.1</tag>
     </scm>
 
     <distributionManagement>
