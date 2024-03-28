@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.qaddict</groupId>
     <artifactId>maven-runner-project</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>pom</packaging>
     <name>Maven jar runner</name>
     <description>Plugin for running jars directly from maven repository without any local maven project.</description>
@@ -44,7 +42,7 @@
         <connection>scm:git:git://github.com/QAddict/${project.artifactId}.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/QAddict/${project.artifactId}.git</developerConnection>
         <url>https://github.com/QAddict/${project.artifactId}</url>
-        <tag>qaddict-foundation-java-0.1</tag>
+        <tag>maven-runner-project-1.0</tag>
     </scm>
 
     <distributionManagement>
